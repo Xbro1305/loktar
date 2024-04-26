@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 30px;
+  padding: 20px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+footer .logo {
+  flex-direction: row;
+}
+
+footer h2 {
+  color: #7b75e1;
+  font-size: 12px;
+  font-weight: 400;
+}

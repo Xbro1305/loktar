@@ -1,0 +1,31 @@
+form {
+  background: #18162c;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 12px;
+}
+
+form input {
+  height: 45px;
+  background: none;
+  border: 1px solid #363555;
+  padding: 0 15px;
+  border-radius: 8px;
+}
+
+form p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+}
+
+form button {
+  height: 55px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}

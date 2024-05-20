@@ -1,15 +1,12 @@
 import React from "react";
-import logo from "../../images/Logo (1).svg";
 import { Link } from "react-router-dom";
-import tg from "../../images/tg.svg";
-import email from "../../images/email.svg";
 import "./Footer.css";
 
 export const Footer = () => {
   return (
     <footer>
       <section className="logo">
-        <img src={logo} alt="" />
+        <img src="https://lktimgs.vercel.app//logo.svg" alt="" />
         <h1>ЛОКТАР</h1>
       </section>
       <span className="line"></span>
@@ -22,11 +19,11 @@ export const Footer = () => {
       <span className="line"></span>
       <section className="contact">
         <Link to={"/"}>
-          <img src={tg} alt="" />
+          <img src="https://lktimgs.vercel.app//tg.svg" alt="" />
           <span>Телеграм-бот</span>
         </Link>
         <Link to={"/"}>
-          <img src={email} alt="" />
+          <img src="https://lktimgs.vercel.app//email.svg" alt="" />
           <span>Обратная связь</span>
         </Link>
       </section>

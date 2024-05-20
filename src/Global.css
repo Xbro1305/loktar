@@ -19,3 +19,11 @@ body {
   width: 100%;
   color: #fff;
 }
+
+button {
+  cursor: pointer;
+}
+
+.homediv {
+  cursor: pointer;
+}

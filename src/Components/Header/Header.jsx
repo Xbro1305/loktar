@@ -1,19 +1,23 @@
 import React from "react";
-import logo from "../../images/Logo (1).svg";
-import cart from "../../images/cart.svg";
+import { useNavigate } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () => {
+  const navigate = useNavigate();
   return (
     <header>
       <section className="logo">
-        <img src={logo} alt="" />
+        <img src="https://lktimgs.vercel.app//logo.svg" alt="" />
         <h1>ЛОКТАР</h1>
       </section>
       <section className="navigation">
-        <img src={cart} alt="" />
-        <img src={require("../../images/saved.png")} alt="" />
-        <img src={require("../../images/menu.png")} alt="" />
+        <img
+          onClick={() => navigate("/cart")}
+          src="https://lktimgs.vercel.app//cart.svg"
+          alt=""
+        />
+        <img src="https://lktimgs.vercel.app//saved.png" alt="" />
+        <img src="https://lktimgs.vercel.app//menu.png" alt="" />
       </section>
     </header>
   );

@@ -3,7 +3,7 @@ import "./Order.css";
 
 export const Order = () => {
   return (
-    <div className="order">
+    <div className="order mw360">
       <form>
         <input type="text" placeholder="Имя" name="name" />
         <input type="text" placeholder="Компания" name="company" />

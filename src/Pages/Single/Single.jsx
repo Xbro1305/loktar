@@ -150,7 +150,7 @@ export const Single = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className="single" id="single">
+    <div className="single mw360" id="single">
       <h4 id="name">{item.name}</h4>
       <div className="showing">
         <button className="open" onClick={() => setModal(true)}>

@@ -36,7 +36,7 @@ export const QA = () => {
     },
   ];
   return (
-    <div className="qa">
+    <div className="qa mw360">
       <h1>Вопрос-ответ</h1>
       {questions.map((question, index) => (
         <div

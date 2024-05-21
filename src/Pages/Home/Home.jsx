@@ -5,7 +5,7 @@ import "./Home.css";
 export const Home = () => {
   const navigate = useNavigate();
   return (
-    <div className="home">
+    <div className="home mw360">
       <div className="first homediv">
         <img src="https://lktimgs.vercel.app//H3.jpg" alt="" />
         <section>

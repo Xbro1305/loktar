@@ -11,6 +11,7 @@ import { Cart } from "./Pages/Cart/Cart";
 import { QA } from "./Pages/QA/QA";
 import { About } from "./Pages/About/About";
 import { Agreement } from "./Pages/Agreement/Agreement";
+import { Main } from "./Pages/main/Main";
 
 export const App = () => {
   return (
@@ -18,13 +19,14 @@ export const App = () => {
       <Provider store={store}>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/shopping-cart" element={<Home />} />
           <Route path="/order" element={<Order />} />
           <Route path="/single/:id" element={<Single />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/qa" element={<QA />} />
           <Route path="/about" element={<About />} />
           <Route path="/agreement" element={<Agreement />} />
+          <Route path="/" element={<Main />} />
         </Routes>
         <Footer />
       </Provider>

@@ -10,7 +10,7 @@ export const Cart = () => {
   const data = JSON?.parse(localStorage?.getItem("cart")) || false;
   console.log(data);
   return (
-    <div className="cart">
+    <div className="cart mw360">
       <h1>Корзина</h1>
       {data ? (
         data.map((item) => (

@@ -3,7 +3,7 @@ import "./About.css";
 
 export const About = () => {
   return (
-    <div className="about">
+    <div className="about mw360">
       <h1>О компании</h1>
       <h2>Локтар - это победа</h2>
       <p>

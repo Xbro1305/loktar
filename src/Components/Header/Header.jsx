@@ -5,7 +5,13 @@ import "./Header.css";
 export const Header = () => {
   const navigate = useNavigate();
   return (
-    <header>
+    <header
+      style={
+        window.location.href == "http://localhost:3000/"
+          ? { maxWidth: "100%" }
+          : {}
+      }
+    >
       <section className="logo">
         <img src="https://lktimgs.vercel.app//logo.svg" alt="" />
         <h1>ЛОКТАР</h1>

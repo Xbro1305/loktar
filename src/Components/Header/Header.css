@@ -3,6 +3,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  max-width: 360px;
+  width: 100%;
 }
 
 header section {

@@ -3,7 +3,7 @@ import "./Agreement.css";
 
 export const Agreement = () => {
   return (
-    <div className="agreement">
+    <div className="agreement mw360">
       <h1>Пользовательское соглаение</h1>
       <h2>1.1. Общие положение</h2>
       <p>

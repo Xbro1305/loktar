@@ -4,6 +4,8 @@ footer {
   height: auto;
   gap: 30px;
   padding: 20px;
+  max-width: 360px;
+  width: 100%;
 }
 
 footer section {

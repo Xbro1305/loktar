@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header
       style={
-        window.location.href == "http://localhost:3000/"
+        window.location.href == "https://loktar.vercel.app/"
           ? { maxWidth: "100%" }
           : {}
       }
